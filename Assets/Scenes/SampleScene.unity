@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 38874866}
   - component: {fileID: 38874870}
   m_Layer: 5
-  m_Name: C_PreMenuScreen
+  m_Name: C2_PreMenuScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +405,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -920,7 +920,7 @@ GameObject:
   - component: {fileID: 250487847}
   - component: {fileID: 250487851}
   m_Layer: 5
-  m_Name: C_IntroScreen
+  m_Name: C1_IntroScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2446,7 +2446,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4427,7 +4427,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4483,7 +4483,7 @@ GameObject:
   - component: {fileID: 1000464238}
   - component: {fileID: 1000464242}
   m_Layer: 5
-  m_Name: C_MenuScreen
+  m_Name: C3_MenuScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5830,7 +5830,7 @@ GameObject:
   - component: {fileID: 1274054379}
   - component: {fileID: 1274054384}
   m_Layer: 5
-  m_Name: C_PlayScreen
+  m_Name: C4_PlayScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5943,6 +5943,7 @@ MonoBehaviour:
   singleplayer: {fileID: 763588062}
   coop: {fileID: 1824685222}
   online: {fileID: 445435384}
+  cancel: {fileID: 1078574240}
 --- !u!1 &1277307334
 GameObject:
   m_ObjectHideFlags: 0
@@ -7913,7 +7914,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -9682,12 +9683,12 @@ GameObject:
   - component: {fileID: 1960156275}
   - component: {fileID: 1960156274}
   m_Layer: 5
-  m_Name: C_OptionsScreen
+  m_Name: C5_OptionsScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1960156274
 MonoBehaviour:
   m_ObjectHideFlags: 0

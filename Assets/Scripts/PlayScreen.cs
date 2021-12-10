@@ -12,6 +12,7 @@ public class PlayScreen : MonoBehaviour
     public AudioSource singleplayer;
     public AudioSource coop;
     public AudioSource online;
+    public AudioSource cancel;
 
     void OnEnable()
     {
@@ -25,6 +26,7 @@ public class PlayScreen : MonoBehaviour
         {
             canvas4.SetActive(false);
             canvas3.SetActive(true);
+            cancel.Play();
             singleplayer.Stop();
             coop.Stop();
             online.Stop();

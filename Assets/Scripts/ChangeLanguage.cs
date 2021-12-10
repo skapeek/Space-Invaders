@@ -7,7 +7,6 @@ using UnityEngine.EventSystems;
 
 public class ChangeLanguage : MonoBehaviour
 {
-
     int index = 0;
     public GameObject selected;
     public AudioSource sfx;
